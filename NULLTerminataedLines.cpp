@@ -24,7 +24,7 @@ int main()
 	//char str[] = "Hello";
 	//cout << str << endl;
 	//cout << sizeof(str) << endl;
-	const int n = 50;
+	const int n = 20;
 	char str[n]{};
 	int leght;
 	bool result = true;
@@ -247,7 +247,6 @@ bool is_hex_number(const char str[])
 int hex_to_dec(const char str[])
 {
 	int n = StrLeght(str);
-	int buffer = 0;
 	int number_dec = 0;
 	int m = 0;
 	for (int i = n - 1; i >= 0; i--)
